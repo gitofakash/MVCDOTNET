@@ -43,4 +43,4 @@ steps:
   inputs:
     azureSubscription: 'Myservice'
     appName: 'SampleAppAkash'
-    package: $(System.DefaultWorkingDirectory)  
+    package: $(System.DefaultWorkingDirectory)/*.zip
