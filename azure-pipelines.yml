@@ -41,6 +41,6 @@ steps:
     zipAfterPublish: True
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'Free Trail'
+    azureSubscription: 'Myservice'
     appName: 'SampleAppAkash'
     package: $(System.DefaultWorkingDirectory)/**/*.zip  
